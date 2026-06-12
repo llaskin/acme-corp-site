@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Acme Corp support — get help with IBKR setup, configuration, paper trading, and billing. Chat with our support assistant."
+    />
+    <title>Support — Acme Corp</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- DevRev PLuG support widget — loaded directly so the chat bubble is
+         independent of the main.js bundle. Installs site-wide on every page. -->
+    <script type="module" crossorigin src="./assets/main-D_wmzjLd.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/main-YaHW5RSq.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <a class="brand" href="./">
+          <span class="logo">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l5-6 4 4 6-8"/><path d="M17 7h4v4"/></svg>
+          </span>
+          Acme Corp
+        </a>
+        <nav class="nav-links">
+          <a href="./#features">Features</a>
+          <a href="./#how">How it works</a>
+          <a href="./pricing.html">Pricing</a>
+          <a href="./support.html">Support</a>
+        </nav>
+        <div class="nav-cta">
+          <a class="btn btn-primary" href="#" data-open-chat>Chat with support</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Page hero -->
+      <section class="page-hero">
+        <div class="container">
+          <span class="eyebrow">Help Center</span>
+          <h1>How can we help?</h1>
+          <p>
+            Search the knowledge base below, or get an instant answer from our
+            support assistant in the chat bubble at the bottom-right.
+          </p>
+          <div class="hero-actions" style="justify-content: center; margin-top: 28px;">
+            <a class="btn btn-primary" href="#" data-open-chat>Ask the assistant →</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Chat callout -->
+      <section style="padding-top: 0;">
+        <div class="container">
+          <div class="chat-callout" data-reveal>
+            <div class="pulse">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+            </div>
+            <div class="copy">
+              <h3>Talk to the Acme Corp assistant</h3>
+              <p>
+                Powered by DevRev Computer. Get instant answers on setup and
+                billing — and escalate to a human whenever you need one.
+              </p>
+            </div>
+            <a class="btn btn-primary" href="#" data-open-chat>Open chat</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Help topics -->
+      <section style="padding-top: 24px;">
+        <div class="container">
+          <div class="help-grid">
+            <div class="help-card" data-reveal>
+              <h3>Setup &amp; connection</h3>
+              <ul>
+                <li><a href="#" data-open-chat>Installing TWS / IB Gateway</a></li>
+                <li><a href="#" data-open-chat>Enabling the IBKR API (port 4002)</a></li>
+                <li><a href="#" data-open-chat>Whitelisting your IP address</a></li>
+                <li><a href="#" data-open-chat>"Connected to Redis" not showing</a></li>
+              </ul>
+            </div>
+            <div class="help-card" data-reveal>
+              <h3>Configuration</h3>
+              <ul>
+                <li><a href="#" data-open-chat>Editing trading_config.json</a></li>
+                <li><a href="#" data-open-chat>Setting investment amount per trade</a></li>
+                <li><a href="#" data-open-chat>Per-scanner dry-run settings</a></li>
+                <li><a href="#" data-open-chat>How hot config reload works</a></li>
+              </ul>
+            </div>
+            <div class="help-card" data-reveal>
+              <h3>Paper &amp; live trading</h3>
+              <ul>
+                <li><a href="#" data-open-chat>How paper trading simulates fills</a></li>
+                <li><a href="#" data-open-chat>Switching a scanner to live</a></li>
+                <li><a href="#" data-open-chat>Understanding stair-step stops</a></li>
+                <li><a href="#" data-open-chat>End-of-day position close</a></li>
+              </ul>
+            </div>
+            <div class="help-card" data-reveal>
+              <h3>ML &amp; signals</h3>
+              <ul>
+                <li><a href="#" data-open-chat>What the confidence score means</a></li>
+                <li><a href="#" data-open-chat>Setting an ML confidence floor</a></li>
+                <li><a href="#" data-open-chat>How models retrain over time</a></li>
+              </ul>
+            </div>
+            <div class="help-card" data-reveal>
+              <h3>Billing &amp; account</h3>
+              <ul>
+                <li><a href="#" data-open-chat>Plans &amp; pricing</a></li>
+                <li><a href="#" data-open-chat>Upgrading or downgrading</a></li>
+                <li><a href="#" data-open-chat>Cancelling your subscription</a></li>
+              </ul>
+            </div>
+            <div class="help-card" data-reveal>
+              <h3>Troubleshooting</h3>
+              <ul>
+                <li><a href="#" data-open-chat>App won't launch on macOS</a></li>
+                <li><a href="#" data-open-chat>No signals coming through</a></li>
+                <li><a href="#" data-open-chat>Reading the trade log output</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section style="background: var(--bg-elev); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);">
+        <div class="container">
+          <div class="section-head" data-reveal>
+            <span class="eyebrow">FAQ</span>
+            <h2>Frequently asked</h2>
+          </div>
+          <div class="faq">
+            <details data-reveal>
+              <summary>Do I need an Interactive Brokers account?</summary>
+              <p>Yes. Acme Corp executes against your own IBKR account through TWS or IB Gateway. We never take custody of your funds or place orders outside your authorization.</p>
+            </details>
+            <details data-reveal>
+              <summary>Is paper trading really free of risk?</summary>
+              <p>Paper trades never place real orders. They track real IBKR bid/ask prices and apply the same stop logic as live trades, so you get a realistic preview without risking capital.</p>
+            </details>
+            <details data-reveal>
+              <summary>How quickly do config changes take effect?</summary>
+              <p>Hot-reloadable settings — position size, stops, ML thresholds, and dry-run flags — apply within five minutes with no restart. Trades already open keep the settings they entered with.</p>
+            </details>
+            <details data-reveal>
+              <summary>Can I run some strategies live and others on paper?</summary>
+              <p>Absolutely. Each scanner has its own dry-run flag, so you can keep proven strategies live while testing new ones on paper at the same time.</p>
+            </details>
+            <details data-reveal>
+              <summary>What happens to open positions at market close?</summary>
+              <p>Acme Corp automatically closes all positions at 3:55 PM EST. 0DTE options with no bid are recorded as expired worthless; everything else is sold at the current bid.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <!-- Status -->
+      <section id="status">
+        <div class="container">
+          <div class="cta-band" data-reveal>
+            <span class="eyebrow" style="margin-bottom: 14px;">● All systems operational</span>
+            <h2>Still stuck? We're one message away.</h2>
+            <p>The assistant escalates to a human agent whenever you need one — just ask.</p>
+            <a class="btn btn-primary" href="#" data-open-chat>Start a conversation</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-bottom" style="border-top: none; margin-top: 0;">
+          <span>© <span data-year></span> Algorithm Capital. All rights reserved.</span>
+          <span>Mock site · DevRev PLuG demo</span>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+</html>
